@@ -1,1 +1,1 @@
-select count(city)-count(distinct city) as difference from station;
+select count(CITY)-count(distinct CITY) as difference from station;
